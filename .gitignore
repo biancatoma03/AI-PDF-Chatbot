@@ -1,0 +1,26 @@
+
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local model and index files
+*.faiss
+*.index
+
+# Local PDF documents
+data/*.pdf
