@@ -4,32 +4,30 @@ A local AI-powered PDF chatbot built with Python, Streamlit, FAISS, Sentence Tra
 
 ## Features
 
-Upload PDF documents through a web interface
+- Upload PDF documents through a web interface
 
-Extract text using PyMuPDF
+- Extract text using PyMuPDF
 
-Split documents into overlapping text chunks
+- Split documents into overlapping text chunks
 
-Generate text embeddings using Sentence Transformers
+- Generate text embeddings using Sentence Transformers
 
-Perform semantic search with FAISS
+- Perform semantic search with FAISS
 
-Generate answers using a local Qwen3 model via Ollama
+- Generate answers using a local Qwen3 model via Ollama
 
-Display relevant PDF page references
+- Display relevant PDF page references
 
-Maintain chat history during the Streamlit session
+- Maintain chat history during the Streamlit session
 
 ## Technologies Used
 
-Python
+- Python
 
-Streamlit
+- Streamlit
 
-PyMuPDF
+- PyMuPDF
 
-Sentence Transformers
+- FAISS
 
-FAISS
-
-Ollama (Qwen3:4b)
+- Ollama (Qwen3:4b)
